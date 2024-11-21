@@ -1,0 +1,46 @@
+:root {
+  // Brand colors - Chat theme
+  --brand-primary: #2962ff; // Main app color
+  --brand-secondary: #0039cb; // Darker variant
+  --brand-light: #768fff; // Lighter variant
+
+    // Message colors
+    --message-sent-bg: #E3F2FD;    // Light blue for sent messages
+    --message-sent-text: #1565C0;
+    --message-received-bg: #FFFFFF; // White for received messages
+    --message-received-text: #212121;
+
+    // Status colors
+    --status-online: #4CAF50;      // Green for online status
+    --status-offline: #9E9E9E;     // Grey for offline
+    --status-away: #FFC107;        // Yellow for away
+    --status-busy: #F44336;        // Red for busy/do not disturb
+
+    // UI colors
+    --background-main: #FFFFFF;     // Main background
+    --background-secondary: #F5F7FB; // Secondary background (sidebar)
+    --background-tertiary: #E8EAF6; // Tertiary background (header)
+    --background-hover: #dadbdf; // Hover background
+    
+    // Text colors
+    --text-primary: #212121;       // Main text color
+    --text-secondary: #757575;     // Secondary text
+    --text-tertiary: #9E9E9E;      // Placeholder text
+    --text-inverse: #FFFFFF;       // Text on dark backgrounds
+
+    // Interactive elements
+    --hover-light: rgba(41, 98, 255, 0.1);  // Hover state for light bg
+    --hover-dark: rgba(41, 98, 255, 0.2);   // Hover state for dark bg
+    --active: rgba(41, 98, 255, 0.3);       // Active/pressed state
+
+    // Utility colors
+    --divider: #E0E0E0;            // Lines and dividers
+    --shadow: rgba(0, 0, 0, 0.1);  // Shadows
+    --overlay: rgba(0, 0, 0, 0.5); // Modal overlays
+
+    // Notification colors
+    --notification: #FF4081;       // Notification badges
+    --error: #F44336;             // Error messages
+    --success: #4CAF50;           // Success messages
+    --warning: #FFC107;           // Warning messages
+}

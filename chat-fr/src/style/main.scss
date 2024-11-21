@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import "./common/collection";
+@import "./component/collection";
+@import "./pages/collection";
+
+body {
+  font-family: $font-primary;
+}
+::-webkit-scrollbar {
+  width: 3px;
+
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background-secondary);
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--divider);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--divider);
+}

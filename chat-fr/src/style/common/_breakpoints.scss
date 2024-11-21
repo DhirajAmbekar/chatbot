@@ -1,0 +1,23 @@
+// Breakpoints for responsive design
+$breakpoints: (
+  "xs": 320px, // Extra small devices (phones)
+  "sm": 576px, // Small devices (large phones/small tablets)
+  "md": 768px, // Medium devices (tablets)
+  "lg": 992px, // Large devices (desktops)
+  "xl": 1200px, // Extra large devices (large desktops)
+  "xxl": 1400px, // Extra extra large devices
+);
+
+// Mixin for media queries
+@mixin breakpoint($point) {
+  @if map-has-key($breakpoints, $point) {
+    @media (min-width: map-get($breakpoints, $point)) {
+      @content;
+    }
+  }
+}
+
+// Usage example:
+// @include breakpoint('md') {
+//   // styles for medium devices and up
+// }
